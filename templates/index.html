@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+  <body>
+      <form action="{{ url_for('queryresult')}}" method="post">
+          <div>
+              <input type="text" name="query" placeholder="Enter sql SELECT query">
+          </div>
+          <br>
+          <!-- <div>
+            <input type="text" name="time" placeholder="Schedule your query (00:00)">
+          </div> -->
+          <div>
+              <button >Submit</button>
+          </div>
+      </form>
+  </body>
+
+</html>

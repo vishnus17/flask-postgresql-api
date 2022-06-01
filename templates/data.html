@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <body>
+      <form action="{{ url_for('add')}}" method="post">
+          <div>
+              <input type="text" name="name" placeholder="name">
+          </div>
+          <div>
+              <input type="text" name="age" placeholder="age">
+          </div>
+          <div>
+              <button> Add </button>
+          </div>
+      </form>
+        <br>
+           <div>
+        <form action="{{ url_for('query')}}" method="post"> 
+        <div>
+            <button> Click to make a query </button>
+        </div>
+        </form>
+          </div>
+  </body>
+
+</html>
